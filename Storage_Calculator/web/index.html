@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Storage Example</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Storage Example</h1>
+        <!--Form action to send input to servlet upon submit-->
+        <form action="myServlet" method="post">
+            Enter video format(720p / 1080p): <input type="text" name="quality"> p
+            <br>
+            Enter run time(seconds): <input type="text" name="rt">
+            <br>
+            Enter number of videos : <input type="text" name="vids" value="1">
+            <br>
+            <input type="submit" value="Calculate Requirements">
+        </form>
+        <div></div>
+    </body>
+</html>
